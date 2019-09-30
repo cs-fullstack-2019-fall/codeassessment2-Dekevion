@@ -9,4 +9,16 @@
 # Enter the second string: COW
 
 # BIRD is longer than COW
-# ```
+# ``
+
+def compare(a,b):
+    if len(a) > len(b):
+        print(f'{a} is longer than {b}')
+    elif len(b) > len(a):
+        print(f'{b} is longer than {a}')
+
+
+
+word1 = input('enter first string')
+word2 = input('enter second string')
+print(compare(word1,word2))
